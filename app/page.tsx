@@ -7,49 +7,49 @@ const journeys = [
     date: "2024.04.14",
     place: "故事开始",
     copy: "春天和星星，从这一天起有了共同的轨道。",
-    image: "/images/birthday-together-1.jpg",
+    image: "images/birthday-together-1.jpg",
     imageAlt: "春春和星星的合照",
   },
   {
     date: "2024 · 国庆",
     place: "成都 · 重庆",
     copy: "第一次一起出游。吃香喝辣，也把山城的路一步步走成回忆。",
-    image: "/images/journeys/chengdu-chongqing.jpg",
+    image: "images/journeys/chengdu-chongqing.jpg",
     imageAlt: "重庆山城夜景",
   },
   {
     date: "2024.11",
     place: "泰国",
     copy: "在异国风情里体验新鲜事物，也一起尝试了从未有过的放松时刻。",
-    image: "/images/journeys/thailand.jpg",
+    image: "images/journeys/thailand.jpg",
     imageAlt: "泰国寺庙与湖面的风景",
   },
   {
     date: "2025.03.10",
     place: "天津",
     copy: "生日、皇冠和一份认真准备的礼物。比礼物更珍贵的，是你笑起来的样子。",
-    image: "/images/journeys/tianjin.jpg",
+    image: "images/journeys/tianjin.jpg",
     imageAlt: "夜色里的城市与灯光",
   },
   {
     date: "2025 · 五一",
     place: "广州",
     copy: "把假期过成共同记忆，把普通的一天变成以后会想起的一天。",
-    image: "/images/journeys/guangzhou.jpg",
+    image: "images/journeys/guangzhou.jpg",
     imageAlt: "广州城市风景",
   },
   {
     date: "2025.10",
     place: "大连",
     copy: "一起吹过北方的海风，也把新的风景装进了我们的故事。",
-    image: "/images/journeys/dalian.jpg",
+    image: "images/journeys/dalian.jpg",
     imageAlt: "海边的浪花与沙滩",
   },
   {
     date: "2025.11",
     place: "日本",
     copy: "世界很大，下一站在哪里不重要，重要的是身边依然有你。",
-    image: "/images/journeys/japan.jpg",
+    image: "images/journeys/japan.jpg",
     imageAlt: "日本古建筑与街巷",
   },
 ];
@@ -163,7 +163,7 @@ export default function Home() {
       {/* eslint-disable-next-line jsx-a11y/media-has-caption */}
       <audio
         ref={audioRef}
-        src="/audio/well-be-okay.mp3"
+        src="audio/well-be-okay.mp3"
         loop
         preload="metadata"
         onPlay={() => setIsMusicPlaying(true)}
@@ -232,7 +232,7 @@ export default function Home() {
 
             <div className="portrait-orbit" aria-label="春春和星星">
               <figure className="portrait portrait-chunchun">
-                <img src="/images/chunchun.jpg" alt="春春的照片" fetchPriority="high" />
+                <img src="images/chunchun.jpg" alt="春春的照片" fetchPriority="high" />
                 <figcaption>春春 · 妹妹</figcaption>
               </figure>
 
@@ -243,7 +243,7 @@ export default function Home() {
               </div>
 
               <figure className="portrait portrait-xingxing">
-                <img src="/images/xingxing.jpg" alt="星星的照片" fetchPriority="high" />
+                <img src="images/xingxing.jpg" alt="星星的照片" fetchPriority="high" />
                 <figcaption>星星 · 哥哥</figcaption>
               </figure>
             </div>
@@ -350,7 +350,7 @@ export default function Home() {
             <div className="photo-stack" aria-label="生日当天的两张合照">
               <figure className="polaroid polaroid-back">
                 <img
-                  src="/images/birthday-together-1.jpg"
+                  src="images/birthday-together-1.jpg"
                   alt="春春和星星在生日当天的合照"
                   loading="lazy"
                 />
@@ -358,7 +358,7 @@ export default function Home() {
               </figure>
               <figure className="polaroid polaroid-front">
                 <img
-                  src="/images/birthday-together-2.jpg"
+                  src="images/birthday-together-2.jpg"
                   alt="春春戴着生日皇冠和星星开心合照"
                   loading="lazy"
                 />
